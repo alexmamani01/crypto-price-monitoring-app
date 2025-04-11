@@ -6,7 +6,7 @@ USER root
 
 # Copia tus archivos al contenedor
 
-COPY ./dags /opt/airflow/dags
+COPY cripto-price-monitoring/airflow/dags /opt/airflow/dags
 COPY ./requirements.txt /opt/airflow/requirements.txt
 COPY ./script/entrypoint.sh /opt/airflow/script/entrypoint.sh
 
